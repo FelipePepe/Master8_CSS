@@ -1,0 +1,68 @@
+@media (min-width: 1000px) {
+  body {
+    display: grid;
+    grid-template: repeat(1, 1fr) / repeat(3, 2fr);
+    justify-items: center;
+    align-items: center;
+    font-family: "Work Sans", sans-serif;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 1000px) {
+  body {
+    display: grid;
+    grid-template: repeat(1, 1fr) / repeat(2, 2fr);
+    justify-items: center;
+    align-items: center;
+    font-family: "Work Sans", sans-serif;
+  }
+}
+
+@media (max-width: 600px) {
+    body {
+      display: grid;
+      grid-template: repeat(1, 1fr) / repeat(1, 2fr);
+      justify-items: center;
+      align-items: center;
+      font-family: "Work Sans", sans-serif;
+    }
+  }
+
+.container {
+  display: grid;
+
+  grid-template-rows: 4;
+  background-color: #c3c3c3;
+  padding: 24px;
+}
+
+.title {
+  font-family: "Oswald", sans-serif;
+  font-size: 2rem;
+}
+
+.items {
+  padding: 12px;
+  background-color: white;
+}
+
+.image {
+  padding: 0px;
+}
+
+.lorem {
+  text-align: justify;
+}
+
+.published {
+  text-align: right;
+  span {
+    color: #a3a3a3;
+  }
+}
+
+.button {
+  padding: 10px;
+  background-color: green;
+  color: white;
+}
